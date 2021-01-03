@@ -1,17 +1,17 @@
 python-env
 ====
 
-GitPodを利用して、chrome上で動作するpythonのプログラミング環境（IDEとjupyterlab）を構築します。  
-ユースケースとしては、ipadを利用した開発を想定しています。  
+GitPodを利用して、chrome上で動作するpythonのプログラミング環境（IDEとjupyterlab）を構築する。  
+ユースケースとして、ipadを利用した開発を想定。（自分用）  
 
 ## Description
-* gitpod.Dockerfile - GitPod上で利用するdockerファイル。  
-* gitpod.yml - GitPodの設定ファイル。  
-* Pipfile - jupyterlabを立ち上げるためのpipfile。pipenvで仮想環境を構築していることを想定  
+* gitpod.Dockerfile - GitPod上で利用するdockerファイル  
+* gitpod.yml - GitPodの設定ファイル  
+* Pipfile - jupyterlabを立ち上げるためのpipfile  
 
 ## Usage
 1. GitPodへアクセス  
-chromeで以下のURLにアクセスします。  
+chromeで以下のURLにアクセス。  
 `https://gitpod.io/#github.com/sp8783/python_env`
 
 2. jupyterlabを立ち上げる  
